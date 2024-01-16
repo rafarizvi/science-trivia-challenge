@@ -11,6 +11,9 @@ const chArray = [ch1El, ch2El, ch3El, ch4El];
 const resultEl = document.querySelector(".result");
 let timerEl = document.querySelector(".timer");
 
+for (i = 0; i < 4; i++){
+    chArray[i].classList.add('hide');
+}
 
 // global variables.
 let score = 0;
@@ -97,9 +100,11 @@ function inCorrectResult() {
 // sets up quiz.
 function startQuiz() {
 
-    q1();
+    for (i = 0; i < 4; i++){
+        chArray[i].classList.remove('hide');
+    }
 
-    // givenTime = givenTime - 10;    
+    q1();  
 }
 
 function q1() {
