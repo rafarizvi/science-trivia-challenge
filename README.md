@@ -4,7 +4,7 @@
 The goal if this project is to create a science trivia quiz. The quiz containes a series of questions and multiple choice answers. The quiz is times using a setInterval function, and it decreases by ten seconds if an answer is wrong. The final score is the remaining time and it is stored in the local storage. The scores can be viewed in the highscore page.
 
 ## Link to webpage
-
+https://rafarizvi.github.io/science-trivia-challenge/
 
 ## Installation
 
