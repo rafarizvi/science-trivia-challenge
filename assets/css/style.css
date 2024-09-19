@@ -132,16 +132,55 @@ body h2 {
     max-width: 70%;
     min-height: 300px;
     margin: 0 10% 0 10%;
-    padding: 10% 0 10% 0;
+    padding: 0% 0 10% 0;
 }
 
-.card form {
-    padding: 12% auto auto auto;
-    font-size: 32px;
+.card form, #score {
+    font-size: 28px;
     text-align: center;
+}
+
+.card ul {
+    margin-right: 40px;
+}
+
+.card li {
+    display: block;
 }
 
 input {
     font-size: 24px;
+    border-radius: 6px;
 }
 
+#save-button, #clear-button {
+    height: 30px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+}
+
+#save-button {
+    width: 200px;
+    background-color: rgb(75, 0, 155);
+    font-weight: 500;
+}
+#save-button:hover {
+    background-color: rgb(96, 1, 196);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.335);
+}
+
+#clear-button {
+    background-color: rgb(188, 63, 63);
+}
+#clear-button:hover {
+    background-color: rgb(192, 26, 26);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.335);
+}
+
+#score {
+    margin-left: 50px;
+    color: rgb(75, 0, 155);
+    text-shadow: 1px 1px 1px rgb(157, 154, 154);
+}
